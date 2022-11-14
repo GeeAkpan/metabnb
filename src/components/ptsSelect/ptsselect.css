@@ -1,0 +1,36 @@
+.pts__select-container{
+    display: flex;
+    padding: 2px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.pts__select-container .tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pts__select-container .tab .tablinks{
+    margin-right: 1.5rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pts__select-container .location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    padding: 14px 13px;
+    width: 161px;
+    height: 48px;
+    cursor: pointer;
+}

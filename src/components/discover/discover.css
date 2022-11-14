@@ -1,0 +1,40 @@
+.metabnb__discover{
+    padding: 50px 100px;
+    background: var(--linear-color);
+    display: flex;
+}
+.metabnb__discover-info{
+    margin-top: 7rem;
+    justify-content: left;
+    color: #fff;
+}
+.metabnb__discover-info h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+.metabnb__discover-info p{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+.metabnb__discover-info a{
+    padding: 14px 33px;
+    text-decoration: none;
+    color: #A02279;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border-radius: 8px;
+}
+
+.metabnb__discover-img{
+    padding: 9px;
+    width: 100%;
+}
+.metabnb__discover-img img{
+    width: 95%;
+}

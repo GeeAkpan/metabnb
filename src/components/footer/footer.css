@@ -1,0 +1,52 @@
+.metabnb__footer{
+    padding: 50px 100px;
+    background: #1D1D1E;
+    color: #fff;
+}
+.metabnb__footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.metabnb__footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.metabnb__footer-section .section{
+    margin-top: 10px;
+    padding-right: 150px;
+}
+.metabnb__footer-section .section a{
+    text-decoration: none;
+    color: #fff;
+}
+.metabnb__footer-section .section p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+.metabnb__footer-section .section .lg{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+
+.metabnb__footer-icon .icons{
+    margin-top: 90px;
+}
+.metabnb__footer-icon .icons a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.metabnb__footer-copy p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.metabnb__footer-copy #copy{
+    margin-right: 10px;
+}

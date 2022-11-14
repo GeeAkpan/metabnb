@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+
+:root{
+  --font-family: 'Red Rose';
+  --linear-color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}

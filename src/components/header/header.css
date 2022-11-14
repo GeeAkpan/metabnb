@@ -1,0 +1,80 @@
+.metabnb__header{
+    padding: 51px 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.metabnb__header-info{
+    width: 50%;
+}
+.metabnb__header-info .infocolor{
+    color: #A02279;
+}
+.metabnb__header-info h1{
+    color: #434343;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+}
+.metabnb__header-info p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #434343;
+}
+.metabnb__header-info p, .metabnb__header-info .form{
+    margin-top: 3rem;
+}
+.metabnb__header-info .form{
+    width: 100%;
+    height: 54.08px;
+}
+.metabnb__header-info .form input{
+    width: 65%;
+    padding: 1.2rem;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #A3A3A3;
+}
+.metabnb__header-info .form button{
+    width: 35%;
+    padding: 1.2rem;
+    color: #fff;
+    background: var(--linear-color);
+    outline: none;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid transparent;
+}
+.metabnb__header-info .form input::placeholder{
+    color: #B8B8B8;
+}
+
+.metabnb__header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+}
+.metabnb__header-img img{
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    .metabnb__header{
+        padding: 51px 50px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .metabnb__header-info{
+        width: 100%;
+        text-align: center;
+    }
+    .metabnb__header{
+       flex-direction: column-reverse;
+    }
+    .metabnb__header-img{
+       margin-bottom: 20px;
+    }
+  }
