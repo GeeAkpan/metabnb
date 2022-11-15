@@ -53,6 +53,9 @@
     }
   }
 @media screen and (max-width: 768px) {
+    .metabnb__nav{
+        padding: 30px;
+    }
     /* .metabnb__nav #hamburger{
         display: block;
         font-size: 1.9rem;
@@ -63,6 +66,12 @@
         cursor: pointer;
         transform: translate(-100%, 75%);
     } */
-    
+    .metabnb__nav button{
+        padding: 12px;
+        font-size: 12px;
+    }
+    .metabnb__nav img{
+        width: 150px;
+    }
     
   }

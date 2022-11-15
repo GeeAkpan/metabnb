@@ -12,7 +12,7 @@
     background: #fff;
     border-radius: 16px;
     padding: 0px;
-    width: 600px;
+    width: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -89,4 +89,13 @@
     height: 20px;
     color: #959DA6;
     font-weight: 800;
+}
+
+@media screen and (max-width: 768px){
+    .metabnb__modal{
+        width: 95%;
+    }
+    .metabnb__modal-wallet button{
+        padding: 12px;
+    }
 }
