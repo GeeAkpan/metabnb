@@ -1,33 +1,19 @@
 import React from 'react';
 import { IoIosOptions } from 'react-icons/io'
 import './ptsselect.css'
+import {tabText} from '../Objects/tspObj'
 
 const PtsSelect = () => {
   return (
     <>
         <div className="pts__select-container">
             <div className="tab">
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
-                <button className="tablinks">
-                    Restaurant
-                </button>
+                {tabText.map(text => {
+                    return (<button className="tablinks">
+                    {text}
+                    </button>)
+                })
+                }
             </div>
 
             <div className="location">

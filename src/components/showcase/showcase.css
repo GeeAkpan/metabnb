@@ -7,12 +7,9 @@
     padding: 1.8rem 5rem;
 }
 
+
 @media screen and (max-width: 768px){
-    .metabnb__showcase{
-        flex-direction: column;
-        height: 50%;
-    }
-    .metabnb__showcase-img{
-        margin-bottom: 20px;
+    .metabnb__showcase-img img{
+        width: 60%;
     }
 }

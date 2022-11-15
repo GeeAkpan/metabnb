@@ -61,3 +61,26 @@
     width: 12px;
     height: 12px;
 }
+
+@media screen and (max-width: 1000px){
+    .metabnb__nft{
+        padding: 58px 30px;
+    }
+    .metabnb__nft-marketplace-info{
+        padding: 8px;
+    }
+    .metabnb__nft-marketplace{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+    }
+}
+    @media screen and (max-width: 768px){
+    .metabnb__nft-marketplace-info{
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .metabnb__nft-marketplace{
+        grid-template-columns: auto;
+    }
+}

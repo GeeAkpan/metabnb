@@ -4,5 +4,5 @@
   margin: 0;
   scroll-behavior: smooth;
   font-family: var(--font-family);
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }

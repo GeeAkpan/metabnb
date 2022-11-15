@@ -10,9 +10,9 @@
     align-items: center;
 }
 .pts__select-container .tab .tablinks{
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     color: #434343;
     background: transparent;
