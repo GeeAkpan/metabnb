@@ -10,7 +10,7 @@
     align-items: center;
 }
 .pts__select-container .tab .tablinks{
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -33,4 +33,18 @@
     width: 161px;
     height: 48px;
     cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .pts__select-container{
+        padding: 2px 50px;
+    }
+    .pts__select-container .tab{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .pts__select-container{
+        padding: 2px 30px;
+    }
 }
